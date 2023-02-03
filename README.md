@@ -20,7 +20,7 @@ This project is subject to the [GNU General Public License v3.0](https://www.gnu
 
 For those who are unfamiliar with the license, here is a summary of its main points. This is by no means legal advice nor legally binding.
 
-*Actions that you are allowed to do:*
+*Actions that you are allowed to do :*
 
 - Use
 - Share
