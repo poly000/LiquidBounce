@@ -97,6 +97,11 @@ dependencies {
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
+    // https://mvnrepository.com/artifact/io.netty/netty-codec-http
+    implementation 'io.netty:netty-codec-http:4.1.82.Final'
+    // https://mvnrepository.com/artifact/io.netty/netty-handler-proxy
+    implementation 'io.netty:netty-handler-proxy:4.1.82.Final'
+
     // Test libraries
 
     testImplementation "org.junit.jupiter:junit-jupiter:5.9.2"
@@ -174,8 +179,9 @@ shadowJar {
         include(dependency('com.labymedia:ultralight-java-gpu'))
         include(dependency('com.thealtening.api:api'))
         include(dependency('com.github.CCBlueX:Elixir'))
+        include(dependency('io.netty:netty-codec-http'))
+        include(dependency('io.netty:netty-handler-proxy'))
     }
-
 }
 
 jar {
